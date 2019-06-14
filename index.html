@@ -1,69 +1,119 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<html class="no-js" lang="tr">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Free coming soon template with jQuery countdown">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <!-- The above 3 meta tags *must* come first in the head -->
 
-  <title>IMS - Istanbul Marketing Summit</title>
+    <!-- SITE TITLE -->
+    <title>Istanbul Marketing Summit</title>
+    <meta name="description" content="IMS, Istanbul Marketing Summit" />
+    <meta name="keywords" content="Event, Conference, IMS, " />
+    <meta name="author" content="Zafer Hüzmeli - IMS" />
 
-  <!-- Bootstrap -->
-  <link href="assets/css/bootstrap.css" rel="stylesheet">
-  <link href="assets/css/bootstrap-theme.css" rel="stylesheet">
-  <link href="assets/css/font-awesome.css" rel="stylesheet">
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="assets/libs/bootstrap/css/bootstrap.min.css" media="all" />
 
-  <!-- siimple style -->
-  <link href="assets/css/style.css" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="assets/libs/fontawesome/css/font-awesome.min.css" media="all"/>
 
-  <!-- =======================================================
-    Theme Name: WeBuild
-    Theme URL: https://bootstrapmade.com/free-bootstrap-coming-soon-template-countdwon/
-    Author: BootstrapMade
-    Author URL: https://bootstrapmade.com
-  ======================================================= -->
+
+    <!-- GOOGLE FONT -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700%7CLato:300,400,700"/>
+
+
+    <!-- OWL CAROUSEL CSS -->
+    <link rel="stylesheet" href="assets/libs/owlcarousel/owl.carousel.min.css" media="all" />
+    <link rel="stylesheet" href="assets/libs/owlcarousel/owl.theme.default.min.css" media="all" />
+
+
+    <!-- POPUP-->
+    <link rel="stylesheet" href="assets/libs/maginificpopup/magnific-popup.css" media="all"/>
+
+
+    <!-- MASTER  STYLESHEET  -->
+    <link id="csi-master-style" rel="stylesheet" href="assets/css/style-default.min.css" media="all" />
+
+    <!-- MODERNIZER CSS  -->
+    <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+
+    <script> 
+        $(function(){
+          $("#header").load("include/header.html"); 
+          $("#footer").load("include/footer.html"); 
+        });
+    </script> 
+
 </head>
+<body class="home">
 
-<body>
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
 
-  <div id="wrapper">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h1>Istanbul Marketing Summit</h1>
-          <h2 class="subtitle">2019 için de yoğun bir şekilde hazırlanıyoruz!</h2>
-        </div>
-      </div>
+<div class="csi-container ">
+    <!-- ***  ADD YOUR SITE CONTENT HERE *** -->
+    <div id="header"></div>
 
-      <div class="row" style="background-color: #29292959;">
-          <div id="email">
-            <h1>İletişim için</h1>
-            <h4><a style="color: white;" href="mailto:info@istanbulmarketingsummit.com">info@istanbulmarketingsummit.com</a></h4>
-          </div>
-          <div class="social">
-            <a href="https://www.instagram.com/istanbulmarketingsummit/?hl=tr"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-            <a href="https://tr.linkedin.com/showcase/ims-2018"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-          </div>
-          <div class="col-lg-6 col-lg-offset-3">
-            <p class="copyright">&copy; Istanbul Marketing Summit - All Rights Reserved</p>
-            <div class="credits">
+
+
+    <!--Banner-->
+    <section>
+        <div class="csi-banner">
+            <div class="csi-banner-style">
+                <div class="csi-inner">
+                    <div class="container">
+                        <div class="csi-banner-content">
+                            <h3 class="csi-subtitle">Conference On</h3>
+                            <h2 class="csi-title">Istanbul Marketıng Summıt</h2>
+                        </div>
+                    </div>
+                    <!-- //.container -->
+                </div>
+                <!-- //.INNER -->
             </div>
-          </div>
         </div>
-    </div>
-  </div>
-  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-  <script src="assets/js/bootstrap.min.js"></script>
-  <script src="assets/js/jquery.countdown.min.js"></script>
-  <script type="text/javascript">
-    $('#countdown').countdown('2019/01/01', function(event) {
-      $(this).html(event.strftime('%w weeks %d days <br /> %H:%M:%S'));
-    });
-  </script>
+    </section>
+    <!--Banner END-->
 
-  <script src="contactform/contactform.js"></script>
 
+
+
+    <!--ABOUT-->
+    <section>
+        <div id="csi-about" class="csi-about">
+            <div class="csi-inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-5">
+                            <div class="csi-about-img">
+                                <img src="assets/img/bi.png" alt="about">
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-7">
+                            <div class="csi-about-content-area">
+                                <div class="csi-heading">
+                                    <h2 class="heading">IMS 2019</h2>
+                                </div>
+                                <div class="csi-about-content">
+                                    <p class="text">
+                                        İstanbul Marketting Summit markalara hikayelerin gücü ile en iyi uygulamaları, pazarlama stratejileri, ödüllü çalışmaları anlatabilecekleri bir ortam sunan bölgenin en heyecan verici pazarlama etkinliğidir.
+                                    </p>
+                                    <div class="btn-area">
+                                        <a class="csi-btn csi-scroll" href="mailto:info@istanbulmarketing.com">Kayıt Ol</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- //.CONTAINER -->
+            </div><!-- //.INNER -->
+        </div>
+    </section>
+    <!--ABOUT END-->
+
+    <div id="footer"></div>
 </body>
-
 </html>
